@@ -1,0 +1,146 @@
+{% from "macros.html" import render_pagination with context %}
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Streaming Services</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light rounded">
+            <a class="navbar-brand" href="{{url_for('index')}}">NewFlix</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('movies')}}">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('theaters')}}">Theaters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('services')}}">Streaming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('about')}}">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="text-center">Streaming Services</h1>
+        <div id="streaming-info"></div>
+        <form action="{{url_for(endpoint)}}" method="GET">
+            <div>
+                <label for="search">Search:</label>
+                {% if search == '' %}
+                <input type="text" name="search" id="search">
+                {% else %}
+                <input type="text" name="search" id="search" value={{search}}>
+                <br>
+                {% endif %}
+                <br><br>
+                Sort Type
+                <div>
+                    <label>Name</label>
+                    {% if sort == 'name' %}
+                    <input type="radio" name="sort" value="name" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sort" value="name" />
+                    {% endif %}
+                </div>
+                <div>
+                    <label>Price</label>
+                    {% if sort == 'price' %}
+                    <input type="radio" name="sort" value="price" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sort" value="price" />
+                    {% endif %}
+                </div>
+                <div>
+                    <label>Country</label>
+                    {% if sort == 'country' %}
+                    <input type="radio" name="sort" value="country" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sort" value="country" />
+                    {% endif %}
+                </div>
+                <div>
+                    <label>Users</label>
+                    {% if sort == 'location' %}
+                    <input type="radio" name="sort" value="users" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sort" value="users" />
+                    {% endif %}
+                </div>
+                <div>
+                    <label>Revenue</label>
+                    {% if sort == 'revenue' %}
+                    <input type="radio" name="sort" value="revenue" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sort" value="revenue" />
+                    {% endif %}
+                </div>
+            </div>
+            <br>
+            <div>
+                Sort Order
+                <div>
+                    <label>Ascending</label>
+                    {% if sortorder == 'ascending' %}
+                    <input type="radio" name="sortorder" value="ascending" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sortorder" value="ascending" />
+                    {% endif %}
+                </div>
+                <div>
+                    <label>Descending</label>
+                    {% if sortorder == 'descending' %}
+                    <input type="radio" name="sortorder" value="descending" checked="checked" />
+                    {% else %}
+                    <input type="radio" name="sortorder" value="descending" />
+                    {% endif %}
+                </div>
+            </div>
+
+
+            <div>
+                <button>Search</button>
+            </div>
+        </form>
+        {% for service in services %}
+        <div class='card'>
+            <div class='card-body'>
+                <div class='container'>
+                    <div style="text-align:center">
+                        <a class='display-5' href="{{url_for('service_detail', service_id=service.id)}}">{{
+                            service.name.title() }}</a>
+                    </div>
+                    <div class='col-md-4'>
+                        <img src="{{ service.logo }}" alt="{{ service.name }} logo" class="img-fluid rounded">
+                    </div>
+                    <a href="{{service.website}}"></a>
+                    <h3>Base Price: ${{service.base_price}}</h3>
+                    <h3>Country of Origin: {{service.country_origin}}</h3>
+                    <h3>Number of Users (Millions): {{service.user_base}}</h3>
+                    <h3>2022 Annual Revenue (Billions): ${{service.revenue2022}}</h3>
+                    <h3>Ad-Free Available: {{service.ad_free_available}}</h3>
+                    <h3>Movies available on {{service.name.title()}}</h3>
+                    {% for movie in service.movies %}
+                    <a class='lead btn btn-light' href="{{url_for('movie_detail', movie_id=movie.id)}}">
+                        {{movie.title}} </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <br>
+        {% endfor %}
+        {{render_pagination(pagination = pagination, endpoint = endpoint, sort=sort, sortorder=sortorder,
+        search=search)}}
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<html>
+
+<head> </head>
+
+<body>
+    <p>This is the services page</b>
+    <h1>Theaters</h1>
+    {% if services == [] %}
+    <p>No services exist</p>
+    {% else %}
+    {% for i in services %}
+    <div>
+        {{i.name}}
+        {{i.website}}
+        {{i.base_price}}
+        {{i.price}}
+        {{i.country_origin}}
+        {{i.movies}}
+        <br /> <br />
+    </div>
+    {% endfor %}
+    {% endif %}
+</body>
+
+</html>

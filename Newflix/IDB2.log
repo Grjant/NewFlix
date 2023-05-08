@@ -1,0 +1,79 @@
+commit 62ab671183f2dccf60b9fef61e0cc20ab67b0d11 (HEAD -> main)
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:59:05 2023 -0500
+
+    add unit tests to about page
+
+commit f0fbc41b4ecd2b8624c1664785d18e03e3597227 (origin/main, origin/HEAD)
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:29:12 2023 -0500
+
+    fix services unit tests
+
+commit 62ab671183f2dccf60b9fef61e0cc20ab67b0d11 (HEAD -> main)
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:59:05 2023 -0500
+
+    add unit tests to about page
+
+commit f0fbc41b4ecd2b8624c1664785d18e03e3597227 (origin/main, origin/HEAD)
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:29:12 2023 -0500
+
+    fix services unit tests
+
+commit 3a22c1bdefab87376ed9914471e2bbbf64a075bf
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:26:37 2023 -0500
+
+    add individual services pages
+
+commit b2e328f2f101f9e8ef589a819e3d4f891fe650cf
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:59:14 2023 -0500
+
+    link movies and theaters
+
+commit 69db205e30a846fa8576156cfdfa10b599cbd9a1
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:37:09 2023 -0500
+
+    add default movie image and erd diagram
+
+commit 2e39ab674d5996d3f897a1232e28f954c6e293eb
+Author: Evan <lock.evan@gmail.com>
+:...skipping...
+commit 62ab671183f2dccf60b9fef61e0cc20ab67b0d11 (HEAD -> main)
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:59:05 2023 -0500
+
+    add unit tests to about page
+
+commit f0fbc41b4ecd2b8624c1664785d18e03e3597227 (origin/main, origin/HEAD)
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:29:12 2023 -0500
+
+    fix services unit tests
+
+commit 3a22c1bdefab87376ed9914471e2bbbf64a075bf
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:26:37 2023 -0500
+
+    add individual services pages
+
+commit b2e328f2f101f9e8ef589a819e3d4f891fe650cf
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:59:14 2023 -0500
+
+    link movies and theaters
+
+commit 69db205e30a846fa8576156cfdfa10b599cbd9a1
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:37:09 2023 -0500
+
+    add default movie image and erd diagram
+
+commit 2e39ab674d5996d3f897a1232e28f954c6e293eb
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:26:17 2023 -0500
+:

@@ -1,0 +1,221 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>About</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light rounded">
+            <a class="navbar-brand" href="{{url_for('index')}}">NewFlix</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('movies')}}">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('theaters')}}">Theaters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('services')}}">Streaming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('about')}}">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="text-center">Team Members</h1>
+        <div class='cards-container' style="margin: 24px;">
+            <div class='card'>
+                <div class='card-body'>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5 class='card-title'>Name: Grant Jacobs</h5>
+                                <img src="../static/imgs/grant.jpeg" width=100px alt="grant headshot">
+                            </div>
+                            <div class="col-md-8">
+                                <p class='card-text'>Biography: Grant is a junior pursuing degrees in both MIS and Math.
+                                </p>
+                                <p class='card-text'>Responsibilities: Grant worked alongside Sharan to develop the
+                                    movies page.
+                                </p>
+                                <p class='card-text'>Number of Commits: {{commits[3]}}</p>
+                                <p class='card-text'>Number of Issues: {{issues[3]}}</p>
+                                <p class='card-text'>Number of Unit Tests: 2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class='card'>
+                <div class='card-body'>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5 class='card-title'>Name: Evan Lock</h5>
+                                <img src="../static/imgs/evan.jpg" width=100px alt="evan headshot">
+                            </div>
+                            <div class="col-md-8">
+                                <p class='card-text'>Biography: Evan is a junior MIS major in the Business Honors
+                                    Program.</p>
+                                <p class='card-text'>Responsibilities: Evan worked alongside Gordon to develop the
+                                    theaters page and
+                                    the
+                                    about page.</p>
+                                <p class='card-text'>Number of Commits: {{commits[2]}}</p>
+                                <p class='card-text'>Number of Issues: {{issues[2]}}</p>
+                                <p class='card-text'>Number of Unit Tests: 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class='card'>
+                <div class='card-body'>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5 class='card-title'>Name: Sharan Tatineni</h5>
+                                <img src="../static/imgs/sharan.jpg" width=100px height=100px alt="sharan headshot">
+                            </div>
+                            <div class="col-md-8">
+                                <p class='card-text'>Biography: Sharan is a junior MIS major in the Business Honors
+                                    Program.</p>
+                                <p class='card-text'>Responsibilities: Sharan worked alongside Grant to develop the
+                                    movies page.
+                                </p>
+                                <p class='card-text'>Number of Commits: {{commits[4]}}</p>
+                                <p class='card-text'>Number of Issues: {{issues[4]}}</p>
+                                <p class='card-text'>Number of Unit Tests: 1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class='card'>
+                <div class='card-body'>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5 class='card-title'>Name: Gordon Liu</h5>
+                                <img src="../static/imgs/gordon.JPG" width=100px alt="gordon headshot">
+                            </div>
+                            <div class="col-md-8">
+                                <p class='card-text'>Biography: Gordon is a junior math major studying in the Business
+                                    Honors
+                                    Program.</p>
+                                <p class='card-text'>Responsibilities: Gordon worked to research and develop the
+                                    streaming services
+                                    page. He also worked to implement the design of the splash page and navigation
+                                    between pages.
+                                </p>
+                                <p class='card-text'>Number of Commits: {{commits[0]}}</p>
+                                <p class='card-text'>Number of Issues: {{issues[0]}}</p>
+                                <p class='card-text'>Number of Unit Tests: 1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class='card'>
+                <div class='card-body'>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5 class='card-title'>Name: Ryan Jacob</h5>
+                                <img src="../static/imgs/ryan.png" width=100px alt="ryan headshot">
+                            </div>
+                            <div class="col-md-8">
+                                <p class='card-text'>Biography: Ryan is a junior MIS major in the Business Honors
+                                    Program.</p>
+                                <p class='card-text'>Responsibilities: Ryan researched and developed the streaming
+                                    services page.
+                                </p>
+                                <p class='card-text'>Number of Commits: {{commits[1]}}</p>
+                                <p class='card-text'>Number of Issues: {{issues[1]}}</p>
+                                <p class='card-text'>Number of Unit Tests: 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Stats:</h2>
+            <p>Total no. of commits: {{commits[5]}}</p>
+            <p>Total Number of Issues: {{issues[5]}}</p>
+            <p>Total Number of Unit Tests: 9</p>
+            <a href="https://gitlab.com/lockevan/cs331e-idb/-/issues">Gitlab Issue Tracker</a>
+            <a href="https://gitlab.com/lockevan/cs331e-idb">Gitlab Repo</a>
+            <a href="https://gitlab.com/lockevan/cs331e-idb/-/wikis/home">Gitlab Wiki</a>
+            <a href="https://speakerdeck.com/ry4njacob/cs331e-final-project-group-4">SpeakerDeck</a>
+        </div>
+        <br>
+        <div class="container">
+            <h2>Data Sources: </h2>
+            <a href="https://serpapi.com/showtimes-results">SerpAPI</a>
+            <p>to scrape Google Search results for a theater name. If a successful scraping occurs, SerpAPI returns a
+                results json with data on showtimes that includes days, times, type of movie, and the movie name for
+                that theater. This API allowed us to get the attributes for our theaters instances. In the future, we
+                want to make our website more flexible and use another API, MovieGlu, to find the theaters that are
+                nearby, so users do not have to manually type in a theater name.</p>
+            <a href="https://www.omdbapi.com/">OMDbAPI</a>
+            <p>We started off by manually making calls to the API with a sample of ten movies. Eventually, we decided to
+                add more movies by using the movies that were currently showing at the theaters in our database. As
+                theaters are being added to the database, our program will check if the movies they are showing exist in
+                the database. If the movie exists in the database, it will establish the link between the showing and
+                the movie. If it does not exist, our program will call OMDbAPI and add the movie to the database and
+                connect it to the movie showing.</p>
+            <a href="https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability">RapidAPI
+                Streaming Availability</a>
+            <p>Since we needed to link streaming services and movies, we needed an API that could return whether a movie
+                was contained in a service’s catalog. After entering the movies into the database, we query the database
+                to get all of the movies and run each of them through RapidAPI to see what services they are available
+                on and establish the link in the database.
+            </p>
+            <a href="https://documenter.getpostman.com/view/17801386/2s93RZL9CZ">Postman API</a>
+        </div>
+        <br>
+        <div class="container">
+            <h2>Tools Used:</h2>
+            <ul>
+                <li>Bootstrap</li>
+                <li>GCP</li>
+                <li>Flask</li>
+                <li>HTML</li>
+                <li>Jinja</li>
+                <li>Git</li>
+                <li>unittest</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h1>Unit Test Runner</h1>
+            <form method="post" action="{{ url_for('run_tests') }}">
+                <input type="submit" value="Run Tests">
+            </form>
+            <div>{{results}}</div>
+        </div>
+</body>
+<script>
+
+</script>
+
+</html>

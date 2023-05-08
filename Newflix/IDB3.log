@@ -1,0 +1,904 @@
+commit 3be0dea5ea39a0f1f075c184c5d6f863e73df7ca
+Author: Evan <lock.evan@gmail.com>
+Date:   Mon Apr 3 23:13:02 2023 -0500
+
+    fix api error
+
+commit f085f6112947e7ce88809d108501678336265415
+Author: Evan <lock.evan@gmail.com>
+Date:   Mon Apr 3 23:07:39 2023 -0500
+
+    add skeleton code for apis
+
+commit 37fe59c536c3aa938e9bdf96655a81bc12ec9088
+Author: Evan <lock.evan@gmail.com>
+Date:   Fri Mar 31 21:18:04 2023 -0500
+
+    add searching (by title/name) and sorting for every instance
+
+commit 19c5275b5aef0ffca106c0352e3cab01767b72b7
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Tue Mar 28 17:28:02 2023 -0500
+
+    theater sorting
+
+commit 544070754aefbbf3830e4bcf7216dbe7a553a51b
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:40:43 2023 -0500
+
+    update yml
+
+commit e8c3791684ba083a50ec61b4ce8c241ba9fe52d2
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:33:30 2023 -0500
+
+    update yml
+
+commit 83aa382e8c4b4436a96e325f1d54ee6e620d7392
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:31:52 2023 -0500
+
+    update yml
+
+commit 0c98971ff5feb82aa88af5eac5bbf62eb62882e6
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:30:06 2023 -0500
+
+    update yml
+
+commit 5299d1bbd143f550588f150f500bcc9a77f63746
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:26:02 2023 -0500
+
+    update yml
+
+commit 1fc9ae165286ea1862c6529dd261c0e64c534275
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:24:47 2023 -0500
+
+    update yml
+
+commit c22e5182d176f1561354348d5a03548d73dd4107
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:23:25 2023 -0500
+
+    update yml
+
+commit bb2b38aa7b448c6ccd6a6fa35867e0c9ed15bb31
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:23:04 2023 -0500
+
+    update yml
+
+commit 12c7d4df7ed42fdb31398b9fd39210d27b46e0d1
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:22:23 2023 -0500
+
+    update yml
+
+commit 5a94e7db739a9e8f7bab913ea4459dfb8c0da435
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:20:17 2023 -0500
+
+    update yml
+
+commit 7fe43e7913ab1759001bdd4cbd4db73f5548edfa
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:17:54 2023 -0500
+
+    update yml
+
+commit b8872fa6b0897e313e0100751ec6affd831c0394
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:17:05 2023 -0500
+
+    update yml
+
+commit a9ae97ce671eacbb50444b67b0f9f723682ee1af
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:10:29 2023 -0500
+
+    update yml
+
+commit 6ea2779d3feb959081b2c77b94f93ab3ee74a35e
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 21:01:04 2023 -0500
+
+    requirements
+
+commit 7491c616f465660f0b7ab28b0d536edd460f7ca8
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:50:48 2023 -0500
+
+    add gunicorn
+
+commit a897f93a8cafbb159fde2579f097130d6b51e291
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:40:35 2023 -0500
+
+    fix requirements
+
+commit f7c281d2583360170f66ea953d9dab763b2cb999
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:39:04 2023 -0500
+
+    add idb2.log
+
+commit f8739a1586289ce1f2fe8a69c9314752814269dc
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:38:17 2023 -0500
+
+    add space
+
+commit 01f852375802823dac9de59b0b179d43fb0e8ad7
+Merge: c4590bd ebe758e
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:30:58 2023 -0500
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit ebe758eedc5c23352abfcfb6cf1d20d4523a7661
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 20:27:43 2023 -0500
+
+    Pydoc3 on models
+
+commit c4590bdfcd9095c4bc0e3bd3298f0179f1e20e4d
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:18:45 2023 -0500
+
+    edit unit test about page
+
+commit 20529a4d426bffc40169710c003d55a09207cf97
+Merge: 62ab671 7c81444
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 20:14:26 2023 -0500
+
+    pull changes
+
+commit 7c814440297b065d5352e17df1ccaec295bb02eb
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 20:12:02 2023 -0500
+
+    theaters frontend changes
+
+commit 62ab671183f2dccf60b9fef61e0cc20ab67b0d11
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:59:05 2023 -0500
+
+    add unit tests to about page
+
+commit bb9a45d72aa3eb3fce5bde084f436bf4c066b9d4
+Merge: 1e9b593 f0fbc41
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 19:38:31 2023 -0500
+
+    merge resolution
+
+commit 1e9b59384e3d03d751c98429b610be564171b6fc
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 19:36:13 2023 -0500
+
+    Gitlab api implementation and Frontend updates to about page
+
+commit f0fbc41b4ecd2b8624c1664785d18e03e3597227
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:29:12 2023 -0500
+
+    fix services unit tests
+
+commit 3a22c1bdefab87376ed9914471e2bbbf64a075bf
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 19:26:37 2023 -0500
+
+    add individual services pages
+
+commit b2e328f2f101f9e8ef589a819e3d4f891fe650cf
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:59:14 2023 -0500
+
+    link movies and theaters
+
+commit 69db205e30a846fa8576156cfdfa10b599cbd9a1
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:37:09 2023 -0500
+
+    add default movie image and erd diagram
+
+commit 2e39ab674d5996d3f897a1232e28f954c6e293eb
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:26:17 2023 -0500
+
+    fix pagination for services
+
+commit 9985bfe6908bdfe4c3189f5d6d9cf4d908df3d75
+Merge: 23e65d9 26934c7
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:13:06 2023 -0500
+
+    save changes
+
+commit 23e65d9e1cc269ade301465c677f246fa3558e29
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 18:11:32 2023 -0500
+
+    modify about page
+
+commit 26934c71869389b61ecf4d3b9c334d286d84b97b
+Merge: 5326510 9a6dca8
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Thu Mar 23 18:02:03 2023 -0500
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit 5326510c56b8dc5bea30aeed0aa9ebed573888cb
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Thu Mar 23 18:01:55 2023 -0500
+
+    adding images for streaming
+
+commit 9a6dca848ef9af0e41fe76f0e837b438190d1383
+Merge: c86863b 4078066
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 17:55:59 2023 -0500
+
+    Merge branch 'main' of gitlab.com:lockevan/cs331e-idb
+
+commit c86863b7660cec3fa7a018702635f352c0cbe138
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 17:55:45 2023 -0500
+
+    Added pagination for movies
+
+commit 4078066024b0fc1722361d45ffc460f84c93791c
+Merge: 64dc957 6303437
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 17:53:28 2023 -0500
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit 64dc95767dd807d3e7ca378a7a286b0164a1193f
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 17:53:21 2023 -0500
+
+    fix theater bug
+
+commit 63034379cf7eb1b62159bac93595bc29f0d190b9
+Merge: 627c692 1f90c14
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Thu Mar 23 16:24:42 2023 -0500
+
+    update db for services
+
+commit 627c692f5673b357113e824a7d6f17eeca80c864
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Thu Mar 23 16:23:16 2023 -0500
+
+    updated db for streaming attributes
+
+commit 1f90c144df2d5786ac544f6f1987ff494da11cb4
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 15:35:08 2023 -0500
+
+    work on fixing api not having some values
+
+commit 6b314e731b17f36ae24346470b8abeffdd2ce6a6
+Merge: 1b8ad8d 926dd1f
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Thu Mar 23 10:30:49 2023 -0500
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit 1b8ad8d5c82be8826a02781862fabd5482515104
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Thu Mar 23 10:30:00 2023 -0500
+
+    update to services
+
+commit 926dd1fbc19faf2dd0b596b2692d57b0ab7a546e
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Thu Mar 23 10:16:02 2023 -0500
+
+    Debug seeding error
+
+commit 1dff9bb7839138bb8fb59a812d18d068a1687251
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 04:30:58 2023 -0500
+
+    fix unit tests
+
+commit 061e2f71f000822020bda725d49248037368a0f8
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 04:21:19 2023 -0500
+
+    fix unit tests
+
+commit 09e6d4c63f41a1021ad17034479efe6753b1c240
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 04:09:02 2023 -0500
+
+    fix unit tests
+
+commit b4b37bf7af460234297c87ff4e556929c7611f82
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 03:11:36 2023 -0500
+
+    update requirements.txt
+
+commit 456fbc7204f641c806abfa7ee0601c8dd3faa9e3
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 03:06:17 2023 -0500
+
+    update requirements.txt
+
+commit 44efe4385f1a91b6ffa5afe3fc3257b5770f6e92
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 03:03:02 2023 -0500
+
+    update requirements.txt
+
+commit d2749ee932b99027a383629afd6eeef84d73ce3a
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:58:36 2023 -0500
+
+    add requirements.txt
+
+commit 30179cb56c48570b6932b50f247395165bfccc45
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:55:21 2023 -0500
+
+    add requirements.txt
+
+commit fa36dd1303263c38f3cf02e2d5135aa7db3f6857
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:46:06 2023 -0500
+
+    update git yaml
+
+commit 96af7747c529634c3aeabc98aaed36140a3664aa
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:45:52 2023 -0500
+
+    update git yaml
+
+commit a5454c739a8785f3ffc518aeabfcb53261ce3928
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:40:24 2023 -0500
+
+    add link from movies to theaters
+
+commit 3892ed1abe6ab9c7cef1a9c1442c808eb2971aca
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:18:40 2023 -0500
+
+    add individual services
+
+commit c36f1aaffea9c460e1e11a1cb07ef7cf72a02e84
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:04:10 2023 -0500
+
+    add linking of movie and streaming service
+
+commit 8434b4a735ce7417ef88d1c38938144557640610
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 02:03:08 2023 -0500
+
+    add streaming services and link to movie
+
+commit 9c62c41e909ad18e2367ae816447e4d465b1ae4f
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 00:43:23 2023 -0500
+
+    add individual movie
+
+commit 84c7b900c1940fcc0f545962d4cec932e67dfcdd
+Merge: b2dda40 907e874
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 00:28:00 2023 -0500
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit b2dda40e3223e98a87aeb9006d7960bca511532c
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 23 00:27:49 2023 -0500
+
+    add individual theaters
+
+commit 907e874f605f5cc01bbceb9c9d285574014a1e05
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Thu Mar 23 00:15:03 2023 -0500
+
+    movies.html update
+
+commit 28911b8cd17876f0405366d3668cf1d0c6438806
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 23:43:45 2023 -0500
+
+    fix movies
+
+commit ceed9e01f6b886caed33ce2a126af4256a73b146
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Wed Mar 22 23:19:07 2023 -0500
+
+    update
+
+commit 87f8aedeae3c2c8f72ff01d060f819d585c118a1
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Wed Mar 22 23:14:27 2023 -0500
+
+    adding posters to movies
+
+commit 0add8561a8fed45a3844269bb5fe2a14cd8f212d
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Wed Mar 22 23:07:44 2023 -0500
+
+    movies.html update
+
+commit b8e008ecbcea14927a7f8e6af1815ccc2c768fcd
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 20:47:52 2023 -0500
+
+    Use database to fill testtheaters page
+
+commit 4dc987b5f42daaca40d653a3c3dd2c569d6fdb90
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 19:42:53 2023 -0500
+
+    Implmented pagination for test theaters page
+
+commit 02b78519d47ea0c5a172ffa2bcf573deca895afa
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 19:41:24 2023 -0500
+
+    Closes #36, Fixed scraping to add times to database
+
+commit b584a86721863cdb8b552e9bfb672b3bcac09c3c
+Merge: 3893f67 0530588
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 23:02:39 2023 +0000
+
+    Merge branch 'theaters' into 'main'
+    
+    Theaters Frontend Merge
+    
+    Closes #29 and #28
+    
+    See merge request lockevan/cs331e-idb!5
+
+commit 3893f672937f8df392a46bd424552aef2def86b8
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 18:01:10 2023 -0500
+
+    edit services model and add creating services in database
+
+commit 053058823691912b9111953ab57763c81eeeff25
+Merge: 6c7ef7c 17454e6
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 22:51:02 2023 +0000
+
+    Merge branch 'main' into 'theaters'
+    
+    # Conflicts:
+    #   main.py
+
+commit 17454e63637b65608c21adb46438e9b493db7cc6
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 17:48:04 2023 -0500
+
+    combine database with main
+
+commit 6c7ef7c27d078cea4907575316fdcf1528849523
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 17:15:00 2023 -0500
+
+    Fixed missing images
+
+commit 0bf28f61541334519b4f3bdd4129e67c821101d9
+Merge: 744aa73 aa790df
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 17:09:29 2023 -0500
+
+    Merge branch 'main' of gitlab.com:lockevan/cs331e-idb
+
+commit 744aa738f0c0416deffa3eeeeb95dc599c71a28e
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Wed Mar 22 17:05:59 2023 -0500
+
+    Closes #28, Closes #29, Updated theaters page with better UI/UX for displaying showing times
+
+commit aa790df89c09941fb7ef692151237d9fec29df0d
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 16:45:39 2023 -0500
+
+    merge services and theaters
+
+commit 3421c29af76ddfdf77825102f18c75e2ad425dab
+Merge: 384d9c4 a3b00b3
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 16:41:06 2023 -0500
+
+    pull changes
+
+commit 384d9c491ebce67ce5219c67c63f423aa789b7e3
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 16:33:15 2023 -0500
+
+    add theaters, showings, and movies
+
+commit a3b00b3524749b06f328a1cb413c7df2966a4331
+Merge: ed42aec f94aa57
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Wed Mar 22 15:27:12 2023 -0500
+
+    db attempt for streaming
+
+commit ed42aec16e4bf4e563c21f3b3ea90907631a6add
+Author: ryanvanillabrownie <71421236+ryanvanillabrownie@users.noreply.github.com>
+Date:   Wed Mar 22 15:25:33 2023 -0500
+
+    db attempt for streaming
+
+commit 9c4311564d05e6c279343157469bc3fece929424
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 15:13:31 2023 -0500
+
+    pull grants changes
+
+commit 8f8456622213f6e9bb7eace8773ce13f8f3410f3
+Merge: 4615b85 f94aa57
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 15:11:46 2023 -0500
+
+    reset file
+
+commit 4615b851dff53c8d4bde08b2e294beb39668d7ee
+Merge: b9b3652 d2e9a03
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 15:09:08 2023 -0500
+
+    modify theater model
+
+commit f94aa570875fbdef95377caa0ae316e25a213da7
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Wed Mar 22 12:27:17 2023 -0500
+
+    adding movies to db
+
+commit d2e9a031aa7c0665c5d6e856a46bd57d76966ee3
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Wed Mar 22 12:21:46 2023 -0500
+
+    updating more
+
+commit 37acf592f90d3c2eacba3d715edaf8d94f363494
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Wed Mar 22 11:44:11 2023 -0500
+
+    pulling moies from db
+
+commit b9b365261aaa278674be67fa3534540aa7ba2d6e
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 04:13:44 2023 -0500
+
+    add theaters to database
+
+commit 81d997fc648270adf3151be7b6d23508337ad826
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Mar 22 00:10:00 2023 -0500
+
+    fix database and set up example adding
+
+commit 280cdd9045d404edb605eedf74efab258cf67344
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Tue Mar 21 21:11:33 2023 -0500
+
+    some db updates
+
+commit 2945905d8d0e1c78c04a297231bda9e4bddbbbfe
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Tue Mar 21 21:02:45 2023 -0500
+
+    create db and update models
+
+commit c8afe1db68b3808addddf893dced26d5f46e306c
+Merge: 8fd174e 18592e6
+Author: Evan <lock.evan@gmail.com>
+Date:   Tue Mar 21 20:49:14 2023 -0500
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit 8fd174e35409718ed2edaa0eaad8f1ae9cd9de1c
+Author: Evan <lock.evan@gmail.com>
+Date:   Tue Mar 21 20:48:40 2023 -0500
+
+    modify models and tests
+
+commit 18592e6a8602e4287f127a3a02a0d1249dab8f57
+Author: Grjant <grantjacobs@utexas.edu>
+Date:   Tue Mar 21 20:23:28 2023 -0500
+
+    changes to yaml
+
+commit 81377fec7229a55d9b98916a38b6249d6996bc25
+Author: Evan <lock.evan@gmail.com>
+Date:   Sun Mar 19 02:44:03 2023 -0500
+
+    adjust app.yaml and create models for table
+
+commit acbcbe679ebf3b558fd4ec1fc3f8aec0a36c9c06
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Mar 16 03:12:04 2023 -0500
+
+    add example files from class
+
+commit 3eaf3a067ceae1face7882834da0a41a92bbe0f4
+Merge: c1d7ade 406d8d5
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 18:08:44 2023 -0600
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit c1d7adeae9880954b1a0e025447b89779b50972a
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 18:08:25 2023 -0600
+
+    add commit logs
+
+commit 406d8d5feb72247d2f63cd51cba8740722b4b12a
+Author: Grant Jacobs <GrantJacobs@utexas.edu>
+Date:   Thu Feb 16 14:27:36 2023 -0600
+
+    https to http
+
+commit 624afb326ce79458545c83fa316cbc2f490defc5
+Author: Grant Jacobs <GrantJacobs@utexas.edu>
+Date:   Thu Feb 16 14:26:23 2023 -0600
+
+    updates to movies
+
+commit 5dbd95121bfd9c44b59cf7b4a0f41430921ff2d0
+Author: Grant Jacobs <GrantJacobs@utexas.edu>
+Date:   Thu Feb 16 14:23:26 2023 -0600
+
+    Https fix
+
+commit a82a952a1d5a15d00c4af96ad63ade62799b742e
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 12:27:44 2023 -0600
+
+    update requirments.txt
+
+commit fc9bb9479292776a4138d106ce2a42632f353b21
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 12:24:20 2023 -0600
+
+    update requirments.txt
+
+commit bfc0df2b66fca644ff474999dbbea6f8d783791b
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 12:18:11 2023 -0600
+
+    delete unneeded imports, add about to theaters navbar
+
+commit 8034b62b592da79d6ccfa9ae1908ad0a415ca687
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 12:06:06 2023 -0600
+
+    update requirements.txt
+
+commit dc95aac0412240e524413665e6240515119fd3d8
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 11:41:53 2023 -0600
+
+    add stats to about page
+
+commit e4f4924728093f6acae5e467500133a99b270f60
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 10:13:44 2023 -0600
+
+    attach theater images
+
+commit 109ae64ab2028bb5fcd1077fcb4a8164f752f38f
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 16 10:02:30 2023 -0600
+
+    add linking between movies to theaters and streaming services and theaters to movies
+
+commit d54b62335ae86293bdc38928f1c492bc87c1eb45
+Merge: efae4e4 f3af58a
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Feb 15 21:40:05 2023 -0600
+
+    Merge branch 'main' of https://gitlab.com/lockevan/cs331e-idb
+
+commit efae4e49775447220564b6776016cdfb6d1bd6af
+Author: Evan <lock.evan@gmail.com>
+Date:   Wed Feb 15 21:39:53 2023 -0600
+
+    add theater thumbnails
+
+commit f3af58a5693bc332b21fe52a8e66ee50f8673db4
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Wed Feb 15 21:35:10 2023 -0600
+
+    fixed images for services.html
+
+commit f9c29623ec6c484011dedf7b3c8d1fa9dba4244f
+Merge: f7d59ab 6a3c8bb
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Wed Feb 15 20:24:10 2023 -0600
+
+    added linking between from streaming to movies
+
+commit f7d59abb29b9464689910041ad48950faa0c627d
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Wed Feb 15 20:22:34 2023 -0600
+
+    added linking for streaming to movies
+
+commit 6a3c8bbc3dfa0c95cf0adb694e06dd035a311f39
+Author: Grant Jacobs <GrantJacobs@utexas.edu>
+Date:   Wed Feb 15 16:34:29 2023 -0600
+
+    Movies to have posters
+
+commit afe3b5611537988700289b43403ddf20b66a60e9
+Author: Grant Jacobs <GrantJacobs@utexas.edu>
+Date:   Wed Feb 15 16:14:55 2023 -0600
+
+    some updates to movies. more to come
+
+commit d205e816b3872aaab811cd8166576bbca341c6a9
+Merge: 05c0043 9ad0a43
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Wed Feb 15 01:13:16 2023 -0600
+
+    test embedded images for streaming
+
+commit 05c00433d2af20efdee682ec7b7f2c4f269b7b3b
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Wed Feb 15 01:09:29 2023 -0600
+
+    test embedding images for streaming services
+
+commit 9ad0a43b38695e57d35c5296d63f1ed005b63888
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Tue Feb 14 22:27:53 2023 -0600
+
+    Added about to navbar, minor adjustments to about frontend
+
+commit 543a90981f035fd70701fc3aae06f1ed8ec54833
+Merge: 489feaf 6b12fe2
+Author: Evan Lock <lock.evan@gmail.com>
+Date:   Wed Feb 15 04:06:16 2023 +0000
+
+    Merge branch 'yamlupdate' into 'main'
+    
+    add about page
+    
+    See merge request lockevan/cs331e-idb!4
+
+commit 6b12fe204dc88d0a86ac040711e400c9dc285390
+Author: Evan <lock.evan@gmail.com>
+Date:   Tue Feb 14 22:05:45 2023 -0600
+
+    add about page
+
+commit 489feafa58757ae0d5aaaadcb4fa3cb8f791ff37
+Merge: eeeb985 895356b
+Author: Evan Lock <lock.evan@gmail.com>
+Date:   Wed Feb 15 03:23:01 2023 +0000
+
+    Merge branch 'yamlupdate' into 'main'
+    
+    add imgs to folder, add about page, modify yaml file
+    
+    See merge request lockevan/cs331e-idb!3
+
+commit 895356bd88d1efd02f9cc24d004c0b3e4133ffdf
+Author: Evan <lock.evan@gmail.com>
+Date:   Tue Feb 14 21:22:03 2023 -0600
+
+    add imgs to folder, add about page, modify yaml file
+
+commit eeeb98521fadf569599a277bdefc4e073f973b5e
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Tue Feb 14 09:50:22 2023 -0600
+
+    took out streaming.html, replaced it with services.html
+
+commit f5f38c05af26a429ec942e7689748512554999e2
+Author: “Ryan <ryan8ntu@gmail.com>
+Date:   Mon Feb 13 01:13:49 2023 -0600
+
+    adding page for streaming services
+
+commit 39914e10f2b5f3fedc496ed4fa03430d6675e1a5
+Merge: 481622a c12e3d7
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Mon Feb 13 02:38:26 2023 +0000
+
+    Merge branch 'theaters' into 'main'
+    
+    Theater page merge
+    
+    Closes #7, #4, and #10
+    
+    See merge request lockevan/cs331e-idb!2
+
+commit c12e3d7fec363056725c807401642d20dc3c5a77
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Sun Feb 12 16:44:50 2023 -0600
+
+    Added navbar to Streaming and Movies pages. Closes #10.
+
+commit 5a3c3a13a2f771311e9481a28bd13010bab7d7e5
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Sun Feb 12 16:37:10 2023 -0600
+
+    Updated theater page with bootstrap, reduced information clutter, and added navbar. Closes #4
+
+commit 70751293eec043c956ccdf52bafdb5836a6f93bc
+Author: Gordon Liu <gordonliu1106@gmail.com>
+Date:   Sun Feb 12 15:45:43 2023 -0600
+
+    Updated splash page with bootstrap, adding responsivity and image carousel; closes #7
+
+commit 00726702a1e0b003c499d47bc472ac525f723166
+Author: Evan <lock.evan@gmail.com>
+Date:   Fri Feb 10 18:25:41 2023 -0600
+
+    add yaml file and requirements file and add env file to gitignore
+
+commit 6ff78538532bf449b64d593d600fb8213b82f588
+Author: Evan <lock.evan@gmail.com>
+Date:   Fri Feb 10 18:24:39 2023 -0600
+
+    add navigation to all pages and add card styling to theaters
+
+commit f0c406576e3fd9967f73d09159a70f1045773210
+Author: Evan <lock.evan@gmail.com>
+Date:   Fri Feb 10 15:15:11 2023 -0600
+
+    remove unnecessary information
+
+commit 29916464fe303e6247e1e36512838717f05ddfdc
+Author: Evan <lock.evan@gmail.com>
+Date:   Fri Feb 10 11:49:49 2023 -0600
+
+    newest changes to theaters
+
+commit 00e9ae5bfc856d46b69e91545df5dbf2c14f5c32
+Author: Evan <lock.evan@gmail.com>
+Date:   Thu Feb 9 17:56:40 2023 -0600
+
+    current status theaters
+
+commit 481622aae68021199e80d6c2e0b65c96860f4d64
+Merge: e620024 86b5de6
+Author: Evan Lock <lock.evan@gmail.com>
+Date:   Thu Feb 9 21:53:18 2023 +0000
+
+    Merge branch 'dev' into 'main'
+    
+    Movies template static page
+    
+    See merge request lockevan/cs331e-idb!1
+
+commit 86b5de65c57a81831e66d332ea574307129ef03f
+Author: Grant Jacobs <GrantJacobs@utexas.edu>
+Date:   Wed Feb 8 16:34:06 2023 -0600
+
+    Movies template static page
+
+commit e6200241ed5b63362004b89a696a3f3eca3cde59
+Author: Evan <lock.evan@gmail.com>
+Date:   Sat Jan 28 12:59:16 2023 -0600
+
+    set up static pages and base files
+
+commit b802b8afe4ece19c047c8dd745bee545aeeb100d
+Author: Evan Lock <lock.evan@gmail.com>
+Date:   Tue Jan 24 15:45:44 2023 +0000
+
+    Initial commit

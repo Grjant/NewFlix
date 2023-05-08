@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>NewFlix</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel-wrapper {
+            height: 100px;
+        }
+        .about {
+            color: #222222;
+            position: relative;
+        }
+        .about:hover {
+            color: inherit;
+            bottom: 1px;
+        }
+        .w-100{
+            width: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <!-- Carousel -->
+                    <div>
+                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/static/imgs/splash.jpeg" alt="parasite movie poster"
+                                        class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/static/imgs/dunkirk.jpg" alt="dunkirk movie poster"
+                                        class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/static/imgs/inception.jpg" alt="inception movie poster"
+                                        class="d-block w-100">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">NewFlix</h1>
+                    <p class="lead"> Discover new movies and immediately find theater and streaming service
+                        availability. </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="{{url_for('movies')}}" role="button"
+                            class="btn btn-outline-primary btn-lg px-4 me-md-2">Movies</a>
+                        <a href="{{url_for('theaters')}}" role="button"
+                            class="btn btn-outline-primary btn-lg px-4">Theaters</a>
+                        <a href="{{url_for('services')}}" role="button"
+                            class="btn btn-outline-primary btn-lg px-4">Streaming</a>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 50px;">
+                        <br>
+                        <a href="{{url_for('about')}}" role="button" class="about">learn about the site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
